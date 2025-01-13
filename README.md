@@ -1,5 +1,2 @@
-# gweb v3.8.1
-my website aesthetic
-![Screenshot of boilerplate gweb3.8 in 'George' theme](img/threepointeightgeorge.png)
-![Screenshot of boilerplate gweb3.8 in 'Hotten' theme](img/threepointeighthotten.png)
-![Screenshot of boilerplate gweb3.8 in 'Aston' theme](img/threepointeightaston.png)
+# tkm-puller-web
+website to interface with the pulled data from tkm-puller
