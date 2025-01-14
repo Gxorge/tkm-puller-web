@@ -8,15 +8,15 @@
 </script>    
 
 <svelte:head>
-    <title>TKM Puller</title>
+    <title>Item Look-up | TKM Puller</title>
 </svelte:head>
 
-<HeroTitle title="TKM Puller" subtitle="Lookup item details from e-comm."/>
+<HeroTitle title="Item Look-up" subtitle="Look-up item details from e-comm."/>
 <section class="content">
     <div class="gweb-text-layout">
         <BackBreadcrum/>
         {#if data.error}
-            <h2>No records found.</h2>
+            <h2>No records found</h2>
             <p>Sorry, no records could be found for this query.</p>
         {:else}
             <br>

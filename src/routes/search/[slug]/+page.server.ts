@@ -5,7 +5,7 @@ export const prerender = false
 
 export const load: PageServerLoad = async ({ params }) => {
     try {
-        // Construct the file path based on params
+        // Construct the file path based on params /mnt/share/ns1tkm/
         const filePath = join('/mnt/share/ns1tkm/', `${params.slug}.json`);
 
         // Read the file asynchronously
